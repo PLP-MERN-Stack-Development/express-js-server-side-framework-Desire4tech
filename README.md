@@ -5,9 +5,9 @@ A simple RESTful API built with **Express.js** and **MongoDB Atlas** for managin
 To set up the project, install dependencies using `npm install`, then create a `.env` file in the root directory with the following content:
 
 ```
-MONGO_URI = mongodb+srv://mern-plp:mernaugust@cluster0.4kaqy2w.mongodb.net/MERN-JULY-WEEK2?retryWrites=true&w=majority&appName=Cluster0
+MONGO_URI = your_mongodb_connection_string
 PORT = 3000
-API_KEY=mysecretkey
+API_KEY=your_api_key
 ```
 
 Start the server using `npm start`. The server will run on `http://localhost:3000`.
